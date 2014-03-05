@@ -5,7 +5,7 @@ Modelica library for low-order building modelling
 
 ### License
 
-The **FastBuildings** library is licensed by [KU Leuven](www.kuleuven.be) and [3E](http://www.3e.eu) under the [Modelica License Version 2](https://www.modelica.org/licenses/ModelicaLicense2).
+The **FastBuildings** library is licensed by [KU Leuven](http://www.kuleuven.be) and [3E](http://www.3e.eu) under the [Modelica License Version 2](https://www.modelica.org/licenses/ModelicaLicense2).
 
 ### Development and contribution
 
