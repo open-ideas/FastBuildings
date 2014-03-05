@@ -1,0 +1,1545 @@
+%PDF-1.4
+%“Œ‹ž ReportLab Generated PDF document http://www.reportlab.com
+% 'BasicFonts': class PDFDictionary 
+1 0 obj
+% The standard fonts dictionary
+<< /F1 2 0 R
+ /F2 3 0 R
+ /F3 4 0 R
+ /F4 5 0 R
+ /F5 7 0 R >>
+endobj
+% 'F1': class PDFType1Font 
+2 0 obj
+% Font Helvetica
+<< /BaseFont /Helvetica
+ /Encoding /WinAnsiEncoding
+ /Name /F1
+ /Subtype /Type1
+ /Type /Font >>
+endobj
+% 'F2': class PDFType1Font 
+3 0 obj
+% Font Helvetica-Bold
+<< /BaseFont /Helvetica-Bold
+ /Encoding /WinAnsiEncoding
+ /Name /F2
+ /Subtype /Type1
+ /Type /Font >>
+endobj
+% 'F3': class PDFType1Font 
+4 0 obj
+% Font Courier
+<< /BaseFont /Courier
+ /Encoding /WinAnsiEncoding
+ /Name /F3
+ /Subtype /Type1
+ /Type /Font >>
+endobj
+% 'F4': class PDFType1Font 
+5 0 obj
+% Font Helvetica-BoldOblique
+<< /BaseFont /Helvetica-BoldOblique
+ /Encoding /WinAnsiEncoding
+ /Name /F4
+ /Subtype /Type1
+ /Type /Font >>
+endobj
+% 'Page1': class PDFPage 
+6 0 obj
+% Page dictionary
+<< /Contents 24 0 R
+ /MediaBox [ 0
+ 0
+ 595.2756
+ 841.8898 ]
+ /Parent 23 0 R
+ /Resources << /Font 1 0 R
+ /ProcSet [ /PDF
+ /Text
+ /ImageB
+ /ImageC
+ /ImageI ] >>
+ /Rotate 0
+ /Trans <<  >>
+ /Type /Page >>
+endobj
+% 'F5': class PDFType1Font 
+7 0 obj
+% Font Helvetica-Oblique
+<< /BaseFont /Helvetica-Oblique
+ /Encoding /WinAnsiEncoding
+ /Name /F5
+ /Subtype /Type1
+ /Type /Font >>
+endobj
+% 'Page2': class PDFPage 
+8 0 obj
+% Page dictionary
+<< /Contents 25 0 R
+ /MediaBox [ 0
+ 0
+ 595.2756
+ 841.8898 ]
+ /Parent 23 0 R
+ /Resources << /Font 1 0 R
+ /ProcSet [ /PDF
+ /Text
+ /ImageB
+ /ImageC
+ /ImageI ] >>
+ /Rotate 0
+ /Trans <<  >>
+ /Type /Page >>
+endobj
+% 'Page3': class PDFPage 
+9 0 obj
+% Page dictionary
+<< /Contents 26 0 R
+ /MediaBox [ 0
+ 0
+ 595.2756
+ 841.8898 ]
+ /Parent 23 0 R
+ /Resources << /Font 1 0 R
+ /ProcSet [ /PDF
+ /Text
+ /ImageB
+ /ImageC
+ /ImageI ] >>
+ /Rotate 0
+ /Trans <<  >>
+ /Type /Page >>
+endobj
+% 'Page4': class PDFPage 
+10 0 obj
+% Page dictionary
+<< /Contents 27 0 R
+ /MediaBox [ 0
+ 0
+ 595.2756
+ 841.8898 ]
+ /Parent 23 0 R
+ /Resources << /Font 1 0 R
+ /ProcSet [ /PDF
+ /Text
+ /ImageB
+ /ImageC
+ /ImageI ] >>
+ /Rotate 0
+ /Trans <<  >>
+ /Type /Page >>
+endobj
+% 'R11': class PDFCatalog 
+11 0 obj
+% Document Root
+<< /Outlines 13 0 R
+ /PageLabels 28 0 R
+ /PageMode /UseNone
+ /Pages 23 0 R
+ /Type /Catalog >>
+endobj
+% 'R12': class PDFInfo 
+12 0 obj
+<< /Author ()
+ /CreationDate (D:20131107000734-01'00')
+ /Creator (\(unspecified\))
+ /Keywords ()
+ /Producer (ReportLab PDF Library - www.reportlab.com)
+ /Subject (\(unspecified\))
+ /Title (Design of FastBuildings library) >>
+endobj
+% 'R13': class PDFOutlines 
+13 0 obj
+<< /Count 10
+ /First 14 0 R
+ /Last 17 0 R
+ /Type /Outlines >>
+endobj
+% 'Outline.0': class OutlineEntryObject 
+14 0 obj
+<< /Dest [ 6 0 R
+ /XYZ
+ 62.69291
+ 729.0236
+ 0 ]
+ /Next 15 0 R
+ /Parent 13 0 R
+ /Title (Introduction) >>
+endobj
+% 'Outline.1': class OutlineEntryObject 
+15 0 obj
+<< /Dest [ 6 0 R
+ /XYZ
+ 62.69291
+ 678.0236
+ 0 ]
+ /Next 16 0 R
+ /Parent 13 0 R
+ /Prev 14 0 R
+ /Title (Goal of the library) >>
+endobj
+% 'Outline.2': class OutlineEntryObject 
+16 0 obj
+<< /Dest [ 6 0 R
+ /XYZ
+ 62.69291
+ 537.0236
+ 0 ]
+ /Next 17 0 R
+ /Parent 13 0 R
+ /Prev 15 0 R
+ /Title (Structure) >>
+endobj
+% 'Outline.3': class OutlineEntryObject 
+17 0 obj
+<< /Count 5
+ /Dest [ 6 0 R
+ /XYZ
+ 62.69291
+ 378.0236
+ 0 ]
+ /First 18 0 R
+ /Last 22 0 R
+ /Parent 13 0 R
+ /Prev 16 0 R
+ /Title (Conventions) >>
+endobj
+% 'Outline.10.0': class OutlineEntryObject 
+18 0 obj
+<< /Dest [ 6 0 R
+ /XYZ
+ 62.69291
+ 345.0236
+ 0 ]
+ /Next 19 0 R
+ /Parent 17 0 R
+ /Title (Imports) >>
+endobj
+% 'Outline.10.1': class OutlineEntryObject 
+19 0 obj
+<< /Dest [ 6 0 R
+ /XYZ
+ 62.69291
+ 251.8236
+ 0 ]
+ /Next 20 0 R
+ /Parent 17 0 R
+ /Prev 18 0 R
+ /Title (Naming) >>
+endobj
+% 'Outline.10.2': class OutlineEntryObject 
+20 0 obj
+<< /Dest [ 8 0 R
+ /XYZ
+ 62.69291
+ 379.0236
+ 0 ]
+ /Next 21 0 R
+ /Parent 17 0 R
+ /Prev 19 0 R
+ /Title (Aliases and propagation) >>
+endobj
+% 'Outline.10.3': class OutlineEntryObject 
+21 0 obj
+<< /Dest [ 9 0 R
+ /XYZ
+ 62.69291
+ 445.1648
+ 0 ]
+ /Next 22 0 R
+ /Parent 17 0 R
+ /Prev 20 0 R
+ /Title (Issues, questions, doubts) >>
+endobj
+% 'Outline.10.4': class OutlineEntryObject 
+22 0 obj
+<< /Dest [ 10 0 R
+ /XYZ
+ 62.69291
+ 482.9421
+ 0 ]
+ /Parent 17 0 R
+ /Prev 21 0 R
+ /Title (Overleg met Ruben) >>
+endobj
+% 'R23': class PDFPages 
+23 0 obj
+% page tree
+<< /Count 4
+ /Kids [ 6 0 R
+ 8 0 R
+ 9 0 R
+ 10 0 R ]
+ /Type /Pages >>
+endobj
+% 'R24': class PDFStream 
+24 0 obj
+% page stream
+<< /Length 6904 >>
+stream
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 62.69291 741.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F2 20 Tf 24 TL 87.13488 0 Td (Design of FastBuildings library) Tj T* -87.13488 0 Td ET
+Q
+Q
+q
+1 0 0 1 62.69291 708.0236 cm
+q
+BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (Introduction) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 690.0236 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F1 10 Tf 0 0 0 rg (This document describes the design choices for the Modelica library ) Tj /F2 10 Tf (FastBuildings) Tj /F1 10 Tf (.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 657.0236 cm
+q
+BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (Goal of the library) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 639.0236 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F2 10 Tf 0 0 0 rg (FastBuildings ) Tj /F1 10 Tf (is a library for building energy simulation with the following ambitions:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 633.0236 cm
+Q
+q
+1 0 0 1 62.69291 633.0236 cm
+Q
+q
+1 0 0 1 62.69291 621.0236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (low order models for fast simulation, upscaling to districts and optimization) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 615.0236 cm
+Q
+q
+1 0 0 1 62.69291 603.0236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (single and multiple zone building simulation) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 597.0236 cm
+Q
+q
+1 0 0 1 62.69291 585.0236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (modular and easily extensible) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 579.0236 cm
+Q
+q
+1 0 0 1 62.69291 567.0236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (can be compiled by JModelica \(also to FMUX\) and OpenModelica) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 561.0236 cm
+Q
+q
+1 0 0 1 62.69291 549.0236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F1 10 Tf 0 0 0 rg (compatible with the ) Tj /F2 10 Tf (IDEAS ) Tj /F1 10 Tf (library) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 549.0236 cm
+Q
+q
+1 0 0 1 62.69291 516.0236 cm
+q
+BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (Structure) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 498.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (The library has the following typological subpackages:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 492.0236 cm
+Q
+q
+1 0 0 1 62.69291 492.0236 cm
+Q
+q
+1 0 0 1 62.69291 480.0236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Zones - Windows) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 474.0236 cm
+Q
+q
+1 0 0 1 62.69291 462.0236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Buildings) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 456.0236 cm
+Q
+q
+1 0 0 1 62.69291 444.0236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (HVAC) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 438.0236 cm
+Q
+q
+1 0 0 1 62.69291 426.0236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Users) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 420.0236 cm
+Q
+q
+1 0 0 1 62.69291 408.0236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Input) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 402.0236 cm
+Q
+q
+1 0 0 1 62.69291 390.0236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Examples) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 390.0236 cm
+Q
+q
+1 0 0 1 62.69291 357.0236 cm
+q
+BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (Conventions) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 327.0236 cm
+q
+BT 1 0 0 1 0 3 Tm 18 TL /F2 15 Tf 0 0 0 rg (Imports) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 309.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (The following imports are put on the top level, so usable anywhere in the package:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 263.8236 cm
+q
+q
+1 0 0 1 0 0 cm
+q
+1 0 0 1 6.6 6.6 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+.960784 .960784 .862745 rg
+n -6 -6 468.6898 36 re B*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 0 14 Tm /F3 10 Tf 12 TL (import SI = Modelica.SIunits;) Tj T* (import HT = Modelica.Thermal.HeatTransfer;) Tj T* ET
+Q
+Q
+Q
+Q
+Q
+q
+1 0 0 1 62.69291 233.8236 cm
+q
+BT 1 0 0 1 0 3 Tm 18 TL /F2 15 Tf 0 0 0 rg (Naming) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 203.8236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL .953735 Tw (Class names can be long and descriptive. They should always start with a capital. For instance names,) Tj T* 0 Tw (different rules apply.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 191.8236 cm
+Q
+q
+1 0 0 1 62.69291 84.82362 cm
+.960784 .960784 .862745 rg
+n 0 107 469.8898 -107 re f*
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+BT 1 0 0 1 6 81 Tm  T* ET
+q
+1 0 0 1 16 76 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2.5 Tm /F4 12.5 Tf 15 TL (Important) Tj T* ET
+Q
+Q
+q
+1 0 0 1 16 52 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL (All instance names start with a small letter.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 16 34 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL (Camel case is applied to all instance names.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 16 16 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL (Wherever possible, 3 letter abbreviations are used.) Tj T* ET
+Q
+Q
+q
+1 J
+1 j
+.662745 .662745 .662745 RG
+.5 w
+n 0 107 m 469.8898 107 l S
+n 0 0 m 469.8898 0 l S
+n 0 0 m 0 107 l S
+n 469.8898 0 m 469.8898 107 l S
+Q
+Q
+ 
+endstream
+endobj
+% 'R25': class PDFStream 
+25 0 obj
+% page stream
+<< /Length 8348 >>
+stream
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 62.69291 709.0236 cm
+.960784 .960784 .862745 rg
+n 0 56 469.8898 -56 re f*
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+BT 1 0 0 1 6 30 Tm  T* ET
+q
+1 0 0 1 16 16 cm
+q
+BT 1 0 0 1 0 14 Tm .660651 Tw 12 TL /F1 10 Tf 0 0 0 rg (One of the only exceptions to these conventions are ) Tj /F5 10 Tf (T ) Tj /F1 10 Tf (and ) Tj /F5 10 Tf (Q_flow ) Tj /F1 10 Tf (order to maintain compatibility) Tj T* 0 Tw (with the ) Tj /F5 10 Tf (Modelica.Thermal.HeatTransfer ) Tj /F1 10 Tf (package and avoid confusion.) Tj T* ET
+Q
+Q
+q
+1 J
+1 j
+.662745 .662745 .662745 RG
+.5 w
+n 0 56 m 469.8898 56 l S
+n 0 0 m 469.8898 0 l S
+n 0 0 m 0 56 l S
+n 469.8898 0 m 469.8898 56 l S
+Q
+Q
+q
+1 0 0 1 62.69291 703.0236 cm
+Q
+q
+1 0 0 1 62.69291 661.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 26 Tm /F1 10 Tf 12 TL 3.297126 Tw (Many models will be built according to an resistance-capacitor \(RC\) analogy. It's important to be) Tj T* 0 Tw 1.193735 Tw (consistent in the naming of all these components. Therefore, it is adopted to name the components as) Tj T* 0 Tw (follows:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 655.0236 cm
+Q
+q
+1 0 0 1 62.69291 655.0236 cm
+Q
+q
+1 0 0 1 62.69291 643.0236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F1 10 Tf 0 0 0 rg (resistance: ) Tj /F2 10 Tf (resXyz[io][1-9] ) Tj /F1 10 Tf (\(eg. resZon, resWali, resWalo, resFlo1\)) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 637.0236 cm
+Q
+q
+1 0 0 1 62.69291 625.0236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F1 10 Tf 0 0 0 rg (capacitor: ) Tj /F2 10 Tf (capXyz[1-9] ) Tj /F1 10 Tf (\(eg. capZon, capHea\)) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 619.0236 cm
+Q
+q
+1 0 0 1 62.69291 595.0236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 9 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+BT 1 0 0 1 0 14 Tm 4.455529 Tw 12 TL /F1 10 Tf 0 0 0 rg (thermal resistance \(parameter\): ) Tj /F2 10 Tf (rXyz[io][1-9]) Tj /F1 10 Tf (, where Xyz[io][1-9] corresponds to the resistor) Tj T* 0 Tw (component \(eg. rZon, rWali, ...\)) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 589.0236 cm
+Q
+q
+1 0 0 1 62.69291 565.0236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 9 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+BT 1 0 0 1 0 14 Tm .359069 Tw 12 TL /F1 10 Tf 0 0 0 rg (thermal capacity \(parameter\): ) Tj /F2 10 Tf (cXyz[1-9]) Tj /F1 10 Tf (, where Xyz[1-9] corresponds to the resistor component \(eg.) Tj T* 0 Tw (cZon, cHea, ...\)) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 565.0236 cm
+Q
+q
+1 0 0 1 62.69291 547.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Others:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 541.0236 cm
+Q
+q
+1 0 0 1 62.69291 541.0236 cm
+Q
+q
+1 0 0 1 62.69291 529.0236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F1 10 Tf 0 0 0 rg (windows: ) Tj /F2 10 Tf (win[1-9] ) Tj /F1 10 Tf (\(eg. win1, win2\)) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 523.0236 cm
+Q
+q
+1 0 0 1 62.69291 511.0236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F1 10 Tf 0 0 0 rg (All temperatures start with ) Tj /F2 10 Tf (T ) Tj /F1 10 Tf (\(TAmb, TWali ...\)) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 505.0236 cm
+Q
+q
+1 0 0 1 62.69291 493.0236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F2 10 Tf 0 0 0 rg (rHum, vWin ) Tj /F1 10 Tf (stand for ambient temperature, relative humidity and wind speed) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 487.0236 cm
+Q
+q
+1 0 0 1 62.69291 475.0236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F2 10 Tf 0 0 0 rg (iGloHor) Tj /F1 10 Tf (, ) Tj /F2 10 Tf (irr[1-9]) Tj /F1 10 Tf (: global horizontal radiation, irradiation on a specific surface \(eg. irr1, irr2\)) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 469.0236 cm
+Q
+q
+1 0 0 1 62.69291 457.0236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F1 10 Tf 0 0 0 rg (design conditions: add ) Tj /F5 10 Tf (Des ) Tj /F1 10 Tf (\(TAmbDes\)) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 451.0236 cm
+Q
+q
+1 0 0 1 62.69291 439.0236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F1 10 Tf 0 0 0 rg (nominal values: add ) Tj /F5 10 Tf (Nom ) Tj /F1 10 Tf (\(Q_flowNom\)) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 433.0236 cm
+Q
+q
+1 0 0 1 62.69291 421.0236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F1 10 Tf 0 0 0 rg (all heatPorts are named ) Tj /F2 10 Tf (heaPor[...]) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 415.0236 cm
+Q
+q
+1 0 0 1 62.69291 391.0236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 9 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+BT 1 0 0 1 0 14 Tm 1.99498 Tw 12 TL /F1 10 Tf 0 0 0 rg (sensors, prescribed temperatures and prescribed heat flows: ) Tj /F2 10 Tf (senXyz, preXyz) Tj /F1 10 Tf (, where Xyz is the) Tj T* 0 Tw (variable that is measured \(eg. senTZon, preTAmb, preQHeaEmb\)) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 391.0236 cm
+Q
+q
+1 0 0 1 62.69291 361.0236 cm
+q
+BT 1 0 0 1 0 3 Tm 18 TL /F2 15 Tf 0 0 0 rg (Aliases and propagation) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 319.0236 cm
+q
+BT 1 0 0 1 0 26 Tm .56881 Tw 12 TL /F1 10 Tf 0 0 0 rg (All parameters of ) Tj /F5 10 Tf (resistances, capacitors ) Tj /F1 10 Tf (etc. have to be progagated to the level of the ) Tj /F5 10 Tf (zone) Tj /F1 10 Tf (. This allows) Tj T* 0 Tw .569398 Tw (to switch more easily between different zone models in a building. The naming has to be consistent \(see) Tj T* 0 Tw (above\).) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 301.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (For example, avoid this:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 243.8236 cm
+q
+q
+1 0 0 1 0 0 cm
+q
+1 0 0 1 6.6 6.6 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+.960784 .960784 .862745 rg
+n -6 -6 468.6898 48 re B*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 0 26 Tm /F3 10 Tf 12 TL (model NotNice) Tj T* (  Capacitor capZon\(c = 1e6\) "Thermal capacity of the zone";) Tj T* (end NotNice;) Tj T* ET
+Q
+Q
+Q
+Q
+Q
+q
+1 0 0 1 62.69291 223.8236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (but prefer this:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 154.6236 cm
+q
+q
+1 0 0 1 0 0 cm
+q
+1 0 0 1 6.6 6.6 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+.960784 .960784 .862745 rg
+n -6 -6 468.6898 60 re B*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 0 38 Tm /F3 10 Tf 12 TL (model Nice) Tj T* (  parameter SI.HeatCapacity cZon = 1e6 "Thermal capacity of the zone";) Tj T* (  Capacitor capZon\(C = cZon\);) Tj T* (end Nice;) Tj T* ET
+Q
+Q
+Q
+Q
+Q
+q
+1 0 0 1 62.69291 110.6236 cm
+q
+BT 1 0 0 1 0 26 Tm .632765 Tw 12 TL /F1 10 Tf 0 0 0 rg (This may seem inefficient, but it allows for instance to specify a thermal resistance for an exterior wall at) Tj T* 0 Tw .014985 Tw (zone level, and split this resistance according to a specific rule over the different ) Tj /F5 10 Tf (resistance ) Tj /F1 10 Tf (components in) Tj T* 0 Tw (the wall itself. Example:) Tj T* ET
+Q
+Q
+ 
+endstream
+endobj
+% 'R26': class PDFStream 
+26 0 obj
+% page stream
+<< /Length 6499 >>
+stream
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 62.69291 457.1648 cm
+q
+q
+.710662 0 0 .710662 0 0 cm
+q
+1 0 0 1 6.6 9.287114 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+.960784 .960784 .862745 rg
+n -6 -6 660 432 re B*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 0 410 Tm /F3 10 Tf 12 TL (model Example_SplittedResistance_Fix) Tj T* (  extends FastBuildings.Zones.BaseClasses.Partials.Partial_SZ;) Tj T*  T* (  FastBuildings.Zones.BaseClasses.Capacitor capZon\(C = cZon\) ;) Tj T* (  FastBuildings.Zones.BaseClasses.Capacitor capWal\(C = cWal\) ;) Tj T* (  FastBuildings.Zones.BaseClasses.Resistance resWale\(R = 0.5 * rWal\) ;) Tj T* (  FastBuildings.Zones.BaseClasses.Resistance resWali\(R = 0.5 * rWal\) ;) Tj T*  T* (  parameter SI.HeatCapacity cZon "Thermal capacity of the zone" ;) Tj T* (  parameter SI.HeatCapacity cWal "Thermal capacity of the zone" ;) Tj T* (  parameter SI.ThermalResistance rWal "Total thermal resistance of the walls, in K/W" ;) Tj T*  T* (equation) Tj T* (  ...) Tj T*  T* (end Example_SplittedResistance_Fix;) Tj T*  T*  T* (model Example_SplittedResistance_Free) Tj T* (  extends FastBuildings.Zones.BaseClasses.Partials.Partial_SZ_CRE;) Tj T*  T* (  FastBuildings.Zones.BaseClasses.Capacitor capZon\(C = cZon\) ;) Tj T* (  FastBuildings.Zones.BaseClasses.Capacitor capWal\(C = cWal\) ;) Tj T* (  FastBuildings.Zones.BaseClasses.Resistance resWale\(R = \(1-posCapWal\) * rWal\) ;) Tj T* (  FastBuildings.Zones.BaseClasses.Resistance resWali\(R = posCapWal * rWal\) ;) Tj T*  T* (  parameter SI.HeatCapacity cZon "Thermal capacity of the zone" ;) Tj T* (  parameter SI.HeatCapacity cWal "Thermal capacity of the zone" ;) Tj T* (  parameter SI.ThermalResistance rWal "Total thermal resistance of the walls, in K/W" ;) Tj T* (  parameter Real posCapWal = 0.5 \(min=0, max=1\) "Position of the capacity in the wall: 0=inside, 1=outside";) Tj T*  T* (equation) Tj T* (  ...) Tj T*  T* (end Example_SplittedResistance_Free;) Tj T* ET
+Q
+Q
+Q
+Q
+Q
+q
+1 0 0 1 62.69291 427.1648 cm
+q
+BT 1 0 0 1 0 3 Tm 18 TL /F2 15 Tf 0 0 0 rg (Issues, questions, doubts) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 385.1648 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 26 Tm /F1 10 Tf 12 TL 3.01936 Tw (Concept: having all inputs through the sim seems nice and clean \(sim = Simulation Input or Info) Tj T* 0 Tw .720651 Tw (Manager\). However, there are some limitations, both from the language and from the tools. An overview) Tj T* 0 Tw (of issues that shaped the design:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 379.1648 cm
+Q
+q
+1 0 0 1 62.69291 379.1648 cm
+Q
+q
+1 0 0 1 62.69291 367.1648 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (not possible to redeclare outer components \(Modelica specs?\)) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 361.1648 cm
+Q
+q
+1 0 0 1 62.69291 325.1648 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 21 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+BT 1 0 0 1 0 26 Tm .423798 Tw 12 TL /F1 10 Tf 0 0 0 rg (this is not problematic: if the inner is a subtype of the outer it works. So we have to choose the right) Tj T* 0 Tw .884104 Tw (inner component at the top level of every simulation, and it has to extend from a PartialSim. Every) Tj T* 0 Tw (model should have the following declaration: ) Tj /F3 10 Tf (outer) Tj ( ) Tj (PartialSim) Tj ( ) Tj (sim) Tj /F1 10 Tf (.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 319.1648 cm
+Q
+q
+1 0 0 1 62.69291 283.1648 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 21 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 26 Tm /F1 10 Tf 12 TL .687633 Tw (In order to make graphical connections from the sim to other components, eg in a zone model, this) Tj T* 0 Tw .374147 Tw (PartialSim should have the necessary connectors \(RealOutputs\). This means that all possible inputs) Tj T* 0 Tw (have to be defined in the Partial.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 277.1648 cm
+Q
+q
+1 0 0 1 62.69291 253.1648 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 9 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL .109984 Tw (to keep the models lean, I tried to declare those connectors as conditional realoutputs. The extended) Tj T* 0 Tw (sim models can specify which connectors are available by specifying the booleans.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 247.1648 cm
+Q
+q
+1 0 0 1 62.69291 199.1648 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 33 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 38 Tm /F1 10 Tf 12 TL 3.077674 Tw (the difficulty is that conditional components can only be referenced in connect equations. So) Tj T* 0 Tw .443984 Tw (specifying a value for a conditional RealOutput cannot be done in an equation. A RealExpression or) Tj T* 0 Tw 3.198555 Tw (similar has to be used, and it's output connected to the conditional RealOutput. This seems) Tj T* 0 Tw (inefficient and error-prone.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 193.1648 cm
+Q
+q
+1 0 0 1 62.69291 76.86614 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 101.2987 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 89.29867 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL .928651 Tw (moreover, it seems that JModelica has issues with the booleans. The models compile fine, but the) Tj T* 0 Tw (CasadiModel cannot be instantiated. The following error message is thrown:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 23 24.74043 cm
+q
+q
+.663829 0 0 .663829 0 0 cm
+q
+1 0 0 1 6.6 9.942318 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+.960784 .960784 .862745 rg
+n -6 -6 648 84 re B*
+Q
+q
+BT 1 0 0 1 0 62 Tm 12 TL /F3 10 Tf 0 0 0 rg (RuntimeError                              Traceback \(most recent call last\)) Tj T* (<) Tj (ipython-input-84-790aa345e46f) Tj (>) Tj ( in ) Tj (<) Tj (module) Tj (>) Tj (\(\)) Tj T* (----) Tj (>) Tj ( 1 c=CasadiModel\(fmux\)) Tj T*  T* (/home/roel/soft/JModelica_sdk_5464/Python/pyjmi/casadi_interface.py in __init__\(self, name, path, verbose\)) Tj T* (    104) Tj T* ET
+Q
+Q
+Q
+Q
+Q
+q
+Q
+Q
+ 
+endstream
+endobj
+% 'R27': class PDFStream 
+27 0 obj
+% page stream
+<< /Length 3381 >>
+stream
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 62.69291 596.9421 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+BT 1 0 0 1 6 155.0815 Tm  T* ET
+q
+1 0 0 1 23 -3 cm
+q
+q
+.663829 0 0 .663829 0 0 cm
+q
+1 0 0 1 6.6 9.942318 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+.960784 .960784 .862745 rg
+n -6 -6 672 252 re B*
+Q
+q
+BT 1 0 0 1 0 230 Tm 12 TL /F3 10 Tf 0 0 0 rg (    105         # Load CasADi interface) Tj T* (--) Tj (>) Tj ( 106         self._load_xml_to_casadi\(self._tempxml, verbose\)) Tj T* (    107) Tj T* (    108         self._ode_conversion = False) Tj T*  T* (/home/roel/soft/JModelica_sdk_5464/Python/pyjmi/casadi_interface.py in _load_xml_to_casadi\(self, xml, verbose\)) Tj T* (    818         options["sort_equations"] = False) Tj T* (    819         options["eliminate_dependent"] = False) Tj T* (--) Tj (>) Tj ( 820         self.ocp.parseFMI\(xml, options\)) Tj T* (    821         casadi.updateDependent\(self.ocp\)) Tj T* (    822) Tj T*  T* (/home/roel/soft/JModelica_sdk_5464/Python/casadi/casadi.py in parseFMI\(self, *args\)) Tj T* (  32401) Tj T* (  32402         """) Tj T* (>) Tj ( 32403         return _casadi.SymbolicOCP_parseFMI\(self, *args\)) Tj T* (  32404) Tj T* (  32405     def addVariable\(self, *args\):) Tj T*  T* (RuntimeError: SymbolicOCP::readExpr: Unknown node: BooleanLiteral) Tj T* ET
+Q
+Q
+Q
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 596.9421 cm
+Q
+q
+1 0 0 1 62.69291 578.9421 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (So either add all potential outputs to the Partial_sim?) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 548.9421 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL 2.324597 Tw (Maybe with conditional realoutputs? And the subcomponents can use the same booleans to specify) Tj T* 0 Tw (inputs? They can be connected and will be removed automatically when the boolean is on false.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 530.9421 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Naming: booXXX for booleans?) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 512.9421 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (How to specify the Q_flow of heaPorEmb?) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 494.9421 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (conventions: powEle, qHeaCoo ?) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 464.9421 cm
+q
+BT 1 0 0 1 0 3 Tm 18 TL /F2 15 Tf 0 0 0 rg (Overleg met Ruben) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 446.9421 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Array van irr maken voor de instralingen) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 428.9421 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (protected pre componentnes) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 410.9421 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (pow voor elektrisch verbruik) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 392.9421 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (windows onder zones) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 374.9421 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (mapje Buildings.SZ en Buildings.MZ) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 356.9421 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Input: geen SIM voor elk model) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 338.9421 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Geen underscores!!) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 320.9421 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Aparte interfaces package) Tj T* ET
+Q
+Q
+ 
+endstream
+endobj
+% 'R28': class PDFPageLabels 
+28 0 obj
+% Document Root
+<< /Nums [ 0
+ 29 0 R
+ 1
+ 30 0 R
+ 2
+ 31 0 R
+ 3
+ 32 0 R ] >>
+endobj
+% 'R29': class PDFPageLabel 
+29 0 obj
+% None
+<< /S /D
+ /St 1 >>
+endobj
+% 'R30': class PDFPageLabel 
+30 0 obj
+% None
+<< /S /D
+ /St 2 >>
+endobj
+% 'R31': class PDFPageLabel 
+31 0 obj
+% None
+<< /S /D
+ /St 3 >>
+endobj
+% 'R32': class PDFPageLabel 
+32 0 obj
+% None
+<< /S /D
+ /St 4 >>
+endobj
+xref
+0 33
+0000000000 65535 f
+0000000113 00000 n
+0000000257 00000 n
+0000000422 00000 n
+0000000597 00000 n
+0000000758 00000 n
+0000000945 00000 n
+0000001226 00000 n
+0000001405 00000 n
+0000001684 00000 n
+0000001963 00000 n
+0000002244 00000 n
+0000002403 00000 n
+0000002682 00000 n
+0000002808 00000 n
+0000002980 00000 n
+0000003174 00000 n
+0000003358 00000 n
+0000003574 00000 n
+0000003744 00000 n
+0000003928 00000 n
+0000004129 00000 n
+0000004332 00000 n
+0000004494 00000 n
+0000004626 00000 n
+0000011629 00000 n
+0000020076 00000 n
+0000026674 00000 n
+0000030158 00000 n
+0000030290 00000 n
+0000030367 00000 n
+0000030444 00000 n
+0000030521 00000 n
+trailer
+<< /ID 
+ % ReportLab generated PDF document -- digest (http://www.reportlab.com) 
+ [(\377?:\223/\347\215\022\247\261\037\261\256\370t3) (\377?:\223/\347\215\022\247\261\037\261\256\370t3)] 
+
+ /Info 12 0 R
+ /Root 11 0 R
+ /Size 33 >>
+startxref
+30568
+%%EOF
