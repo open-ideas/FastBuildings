@@ -14,7 +14,7 @@ partial model Partial_SZ "Single zone partial model, no air node"
     "Input data, to be provided by an inner submodel of PartialSIM"
     annotation (Placement(transformation(extent={{-200,80},{-180,100}})));
   annotation(Diagram(coordinateSystem(extent={{-200,-100},{100,100}},   preserveAspectRatio=true,    initialScale = 0.1, grid = {2,2}), graphics), Icon(coordinateSystem(extent={{-200,
-            -100},{100,100}},                                                                                                    preserveAspectRatio=true,    initialScale = 0.1, grid = {2,2}), graphics={  Polygon(origin = {0.130719,0.130719}, points={{
+            -100},{100,100}},                                                                                                    preserveAspectRatio=true,    initialScale = 0.1, grid = {2,2}), graphics={  Polygon(origin=  {0.130719,0.130719}, points={{
               -200.131,99.8693},{-200.131,-40.1307},{-60.1307,-40.1307},{
               -60.1307,-100.131},{99.8693,-100.131},{99.8693,99.8693},{-200.131,
               99.8693}})}));
