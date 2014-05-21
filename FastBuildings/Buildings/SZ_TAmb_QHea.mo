@@ -27,9 +27,9 @@ equation
   connect(TAmb2HeaPor.port,RC.heatPortAmb) annotation(Line(points={{
         -42.2934,22.1465},{38.4729,22.1465},{38.4729,22.3143},{42.4858,
         22.3143}}));
-  annotation(Icon(graphics={  Rectangle(rotation=  0, lineColor=  {0,0,255}, fillColor=  {170,0,0}, pattern=  LinePattern.Solid,
-            fillPattern=                                                                                                    FillPattern.Solid,
-            lineThickness=                                                                                                    0.25, extent=  {{-79.046,-100.17},{80.4089,20.1022}}),Polygon(points=  {{-99.4889,8},{0.340716,87.7274},{99.1482,8},{-99.4889,8}}, rotation=  0, lineColor=  {0,0,255}, fillColor=  {170,0,0}, pattern=  LinePattern.Solid,
-            fillPattern=                                                                                                    FillPattern.Solid,
-            lineThickness=                                                                                                    0.25)}), Diagram);
+  annotation(Icon(graphics={  Rectangle(rotation = 0, lineColor = {0,0,255}, fillColor = {170,0,0}, pattern = LinePattern.Solid,
+            fillPattern =                                                                                                   FillPattern.Solid,
+            lineThickness =                                                                                                   0.25, extent = {{-79.046,-100.17},{80.4089,20.1022}}),Polygon(points = {{-99.4889,8},{0.340716,87.7274},{99.1482,8},{-99.4889,8}}, rotation = 0, lineColor = {0,0,255}, fillColor = {170,0,0}, pattern = LinePattern.Solid,
+            fillPattern =                                                                                                   FillPattern.Solid,
+            lineThickness =                                                                                                   0.25)}), Diagram);
 end SZ_TAmb_QHea;

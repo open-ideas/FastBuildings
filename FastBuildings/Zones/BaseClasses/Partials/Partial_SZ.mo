@@ -1,6 +1,7 @@
 within FastBuildings.Zones.BaseClasses.Partials;
 partial model Partial_SZ "Single zone partial model, no air node"
 
+  parameter Integer nIrr = 1 "Number of irradiation inputs/windows";
   HT.Interfaces.HeatPort_a heaPorCon "Convective heat transfer" annotation(Placement(visible = true, transformation(extent = {{90,-10},{110,10}})));
   HT.Interfaces.HeatPort_a heaPorRad "Radiative heat transfer" annotation(Placement(transformation(extent = {{90,-50},{110,-30}})));
   //parameter Boolean booEmb = true "if true, add a heatPort for Embedded heat transfer";
@@ -13,6 +14,7 @@ partial model Partial_SZ "Single zone partial model, no air node"
   outer Input.BaseClasses.Partial_SIM simFasBui
     "Input data, to be provided by an inner submodel of PartialSIM"
     annotation (Placement(transformation(extent={{-200,80},{-180,100}})));
+
   annotation(Diagram(coordinateSystem(extent={{-200,-100},{100,100}},   preserveAspectRatio=true,    initialScale = 0.1, grid = {2,2}), graphics), Icon(coordinateSystem(extent={{-200,
             -100},{100,100}},                                                                                                    preserveAspectRatio=true,    initialScale = 0.1, grid = {2,2}), graphics={  Polygon(origin = {0.130719,0.130719}, points={{
               -200.131,99.8693},{-200.131,-40.1307},{-60.1307,-40.1307},{

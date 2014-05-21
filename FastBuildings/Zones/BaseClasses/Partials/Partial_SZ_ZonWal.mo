@@ -1,7 +1,6 @@
 within FastBuildings.Zones.BaseClasses.Partials;
 partial model Partial_SZ_ZonWal "States for zone and wall"
   extends FastBuildings.Zones.BaseClasses.Partials.Partial_SZ;
-  parameter Integer nIrr = 1 "Number of irradiation inputs/windows";
   parameter SI.HeatCapacity cZon = 1 "Thermal capacity of the zone";
   parameter SI.HeatCapacity cWal = 1 "Thermal capacity of the wal";
   parameter SI.ThermalResistance rWal = 1

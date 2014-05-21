@@ -1,26 +1,14 @@
-within FastBuildings.Zones.BaseClasses.Partials;
-partial model Partial_SZ_Zon
-  "Single state, only zone temperature, array of windows"
-  extends FastBuildings.Zones.BaseClasses.Partials.Partial_SZ;
-
-  parameter SI.HeatCapacity cZon = 1 "Thermal capacity of the zone";
-  parameter SI.ThermalResistance rWal = 1
-    "Total thermal resistance of the walls, in K/W";
-  BaseClasses.Capacitor capZon(c=cZon) "Thermal capacity of the zone"
-    annotation (Placement(transformation(extent={{10,60},{30,80}})));
-  replaceable Windows.Window_gA[nIrr] win constrainedby Windows.PartialWindow
-    "Array of window models"
-    annotation (Placement(transformation(extent={{-100,30},{-80,50}})));
-  BaseClasses.Resistance resWal(r=rWal)
-    "Total thermal resistance of the walls, in K/W"
-    annotation (Placement(transformation(extent={{-100,-10},{-80,10}})));
-protected
-  HT.Sources.PrescribedTemperature preTAmb
-    annotation (Placement(transformation(extent={{-150,-10},{-130,10}})));
-  HT.Sensors.TemperatureSensor senTZon
-    annotation (Placement(transformation(extent={{50,-90},{70,-70}})));
+within FastBuildings.Zones;
+model Zon_C
+  "Single state, only zone temperature, array of windows, with boundary temperature"
+  extends FastBuildings.Zones.BaseClasses.Partials.Partial_SZ_Zon;
+  extends BaseClasses.Partials.Partial_Bound;
 equation
   for i in 1:nIrr loop
+    connect(win[i].heaPor1, capZon.heaPor) annotation (Line(
+      points={{-79.9087,39.9476},{20,39.9476},{20,60}},
+      color={191,0,0},
+      smooth=Smooth.None));
   end for;
   connect(simFasBui.TAmb, preTAmb.T) annotation (Line(
       points={{-179.039,82.0248},{-166,82.0248},{-166,0},{-152,0}},
@@ -40,6 +28,18 @@ equation
       points={{-80,0},{20,0},{20,60}},
       color={191,0,0},
       smooth=Smooth.None));
+  connect(heaPorEmb, capZon.heaPor) annotation (Line(
+      points={{100,39.9057},{20,39.9057},{20,60}},
+      color={191,0,0},
+      smooth=Smooth.None));
+  connect(heaPorCon, capZon.heaPor) annotation (Line(
+      points={{100,0},{20,0},{20,60}},
+      color={191,0,0},
+      smooth=Smooth.None));
+  connect(heaPorRad, capZon.heaPor) annotation (Line(
+      points={{100,-40},{20,-40},{20,60}},
+      color={191,0,0},
+      smooth=Smooth.None));
   connect(capZon.heaPor, senTZon.port) annotation (Line(
       points={{20,60},{20,-80},{50,-80}},
       color={191,0,0},
@@ -48,7 +48,15 @@ equation
       points={{70,-80},{106,-80}},
       color={0,0,127},
       smooth=Smooth.None));
-  annotation(Diagram(coordinateSystem(preserveAspectRatio=true,    extent={{-200,
+  connect(resBou.heaPor_b, senTZon.port) annotation (Line(
+      points={{-100,-80},{50,-80}},
+      color={191,0,0},
+      smooth=Smooth.None));
+  connect(simFasBui.TSet, preTBou.T) annotation (Line(
+      points={{-190.039,79.0248},{-190.039,-80},{-149.2,-80}},
+      color={0,0,127},
+      smooth=Smooth.None));
+  annotation(Diagram(coordinateSystem(preserveAspectRatio=false,   extent={{-200,
             -100},{100,100}}),                                                                        graphics), Documentation(info = "<html>
 <p>this is a simple <u>test</u></p>
 <p><ul>
@@ -60,4 +68,4 @@ equation
 <p>First version, 12/10/2011 - RDC</p>
 </html>"),
     Icon(coordinateSystem(extent={{-200,-100},{100,100}})));
-end Partial_SZ_Zon;
+end Zon_C;
