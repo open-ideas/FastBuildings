@@ -21,14 +21,14 @@ partial model Partial2Zone
         rotation=90,
         origin={-6,-30})));
 equation
-  connect(zon1.TZon, hva.TZon) annotation (Line(points={{-19.0598,-7.65812},{
-          7.86325,-7.65812},{7.86325,-7.35031},{8.1619,-7.35031}}));
-  connect(zon1.heaPorRad, hva.heaPorRad) annotation (Line(points={{-19.0598,
-          -3.65812},{8.20513,-3.65812},{8.20513,-3.31624},{8.1027,-3.31624}}));
+  connect(zon1.TZon, hva.TZon) annotation (Line(points={{-19.0598,-7.65812},{7.86325,
+          -7.65812},{7.86325,-7.35031},{8.1619,-7.35031}}));
+  connect(zon1.heaPorRad, hva.heaPorRad) annotation (Line(points={{-19.0598,-3.65812},
+          {8.20513,-3.65812},{8.20513,-3.31624},{8.1027,-3.31624}}));
   connect(zon1.heaPorCon, hva.heaPorCon) annotation (Line(points={{-19.0598,
           0.34188},{8.20513,0.34188},{8.20513,0.690581},{8.1367,0.690581}}));
-  connect(zon1.heaPorEmb, hva.heaPorEmb) annotation (Line(points={{-19.0598,
-          4.33245},{8.54701,4.33245},{8.54701,4.67694},{8.1367,4.67694}}));
+  connect(zon1.heaPorEmb, hva.heaPorEmb) annotation (Line(points={{-19.0598,4.33245},
+          {8.54701,4.33245},{8.54701,4.67694},{8.1367,4.67694}}));
   connect(zon2.heaPorCon, bou.heaPor_a) annotation (Line(
       points={{-21.0598,-51.6581},{-14,-51.6581},{-14,-52},{-6,-52},{-6,-40},{
           -6,-40}},

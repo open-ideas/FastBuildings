@@ -13,8 +13,8 @@ equation
       color={0,0,127},
       smooth=Smooth.None));
   connect(simFasBui.irr, win.irr) annotation (Line(
-      points={{-179.039,86.0248},{-140,86.0248},{-140,40},{-120,40},{-120,
-          39.9651},{-99.8824,39.9651}},
+      points={{-179.039,86.0248},{-140,86.0248},{-140,40},{-120,40},{-120,39.9651},
+          {-99.8824,39.9651}},
       color={0,0,127},
       smooth=Smooth.None));
   connect(preTAmb.port, resWal.heaPor_a) annotation (Line(

@@ -10,7 +10,6 @@ model ZonWalInt_J
     annotation (Placement(transformation(extent={{-70,-30},{-50,-10}})));
 
 equation
-
   connect(resInf.heaPor_b, capZon.heaPor) annotation (Line(
       points={{-50,-20},{20,-20},{20,60}},
       color={191,0,0},

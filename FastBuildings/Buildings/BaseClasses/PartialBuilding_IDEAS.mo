@@ -7,7 +7,7 @@ partial model PartialBuilding_IDEAS "Multizone building, compatible with IDEAS"
     "Weather data, to be provided by an inner submodel of Partial_SIM"                                                     annotation(Placement(visible = true, transformation(origin={-138.154,
             89.5214},                                                                                                    extent = {{-10,-10},{10,10}}, rotation = 0)));
   replaceable Zones.BaseClasses.Partials.Partial_SZ[nZones]  zon(nIrr=nIrr)
-    "Array of zones"                                             annotation(Placement(visible = true, transformation(origin={1.4701,
+    "Array of zones"                                             annotation(choicesAllMatching = true, Placement(visible = true, transformation(origin={1.4701,
             -2.8291},                                                                                                    extent={{
             -64.5299,-42.8291},{64.5299,42.8291}},                                                                                                    rotation = 0)));
   IDEAS.Climate.Meteo.Solar.RadSol[nIrr] radSol(
@@ -21,6 +21,7 @@ partial model PartialBuilding_IDEAS "Multizone building, compatible with IDEAS"
   parameter SI.Angle azi[nIrr]
     "azimuth, one value for each solar radiation to be included";
 equation
+  simFasBui.TAmb = sim.Te;
   simFasBui.TSet = 0;
   simFasBui.qHeaCoo = 0;
   simFasBui.powEle = 0;
