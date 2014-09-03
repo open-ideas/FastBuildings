@@ -1,13 +1,7 @@
 within FastBuildings.Zones.BaseClasses;
 model Resistance "Themal resistance"
 
-  HT.Interfaces.HeatPort_a heaPor_a annotation(Placement(transformation(extent={{-110,
-            -10},{-90,10}},                                                                             rotation = 0),
-        iconTransformation(extent={{-110,-10},{-90,10}})));
-  HT.Interfaces.HeatPort_b heaPor_b annotation(Placement(transformation(extent={{90,-10},
-            {110,10}},                                                                                rotation = 0),
-        iconTransformation(extent={{90,-10},{110,10}})));
-  parameter SI.ThermalResistance r "Constant thermal resistance" annotation(Placement(visible = true, transformation(origin = {119.504,-85.2311}, extent = {{-12,-12},{12,12}}, rotation = 0)));
+extends FastBuildings.Zones.BaseClasses.Partials.TwoPort;
 equation
   heaPor_a.Q_flow * r = heaPor_a.T - heaPor_b.T;
   heaPor_a.Q_flow + heaPor_b.Q_flow = 0;
