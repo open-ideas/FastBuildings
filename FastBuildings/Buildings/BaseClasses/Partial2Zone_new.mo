@@ -19,7 +19,7 @@ partial model Partial2Zone_new "Better version of a two-zone partial"
         origin={-27.0598,-59.6581},
         extent={{-10,-10},{10,10}},
         rotation=0)));
-  replaceable Zones.BaseClasses.Wall_1C bou constrainedby
+  replaceable Zones.BaseClasses.Wall_1C_new bou constrainedby
     FastBuildings.Zones.BaseClasses.Partials.TwoPort
     "boundary wall between zon1 and zon2"
     annotation (ChoicesAllMatching=true,
@@ -43,14 +43,14 @@ equation
           4.33245},{8.54701,4.33245},{8.54701,4.67694},{8.1367,4.67694}}));
   connect(bou.heaPor_b, hva1.heaPorCon) annotation (Line(
       points={{-6,-20},{-6,0},{8.20513,0},{8.20513,0.690581},{8.1367,0.690581}},
-
       color={191,0,0},
       smooth=Smooth.None));
+
   connect(zon2.TZon, hva2.TZon) annotation (Line(
       points={{-17.0598,-67.6581},{-4,-67.6581},{-4,-67.3503},{10.1619,-67.3503}},
-
       color={0,0,127},
       smooth=Smooth.None));
+
   connect(zon2.heaPorEmb, hva2.heaPorEmb) annotation (Line(
       points={{-17.0598,-55.6675},{-3.5299,-55.6675},{-3.5299,-55.323},{10.1367,
           -55.323}},
