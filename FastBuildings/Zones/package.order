@@ -4,6 +4,7 @@ Zon_C
 ZonInt_A
 ZonInt_B
 ZonInt_C
+ZonInt_D
 ZonWal_A
 ZonWal_B
 ZonWal_C
@@ -24,9 +25,12 @@ ZonWalIntBou_A
 ZonWalIntBou_B
 ZonWalIntBou_C
 ZonWalIntBouCel_A
+ZonEmbInt_A
+ZonEmbInt_B
 ZonWalEmb_A
 ZonWalEmb_B
 ZonWalEmb_C
+ZonWalEmb_D
 ZonWalIntEmb_A
 ZonWalIntEmb_B
 BaseClasses
