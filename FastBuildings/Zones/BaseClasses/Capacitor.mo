@@ -9,9 +9,13 @@ model Capacitor "Lumped thermal capacity"
             {10,10}},                                                                                                    rotation = 0)));
 equation
   c * der(heaPor.T) = heaPor.Q_flow;
-  annotation(Diagram, Icon(graphics={  Text(rotation = 0, lineColor = {0,0,255}, fillColor = {0,0,0}, pattern = LinePattern.Solid,
-            fillPattern =                                                                                                   FillPattern.None,
-            lineThickness =                                                                                                   0.25, extent = {{-130.804,110.853},{129.196,59.8534}}, textString = "%name"),
+  annotation(Diagram, Icon(graphics={  Text(rotation = 0, lineColor={95,95,95},  fillColor=
+              {0,0,0},                                                                                pattern=
+              LinePattern.Solid,
+            fillPattern=FillPattern.None,
+            lineThickness=0.25,                                                                                                    extent={{
+              -100,92},{100,60}},
+          textString="%name"),
         Line(
           points={{0,-98},{0,0}},
           color={95,95,95},

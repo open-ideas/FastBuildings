@@ -10,7 +10,9 @@ partial model PartialWindow "Partial window model"
             -0.52412},                                                                                                    extent = {{-12,-12},{12,12}}, rotation = 0)));
 
   annotation(Diagram(graphics),
-                      Icon(graphics={
+                      Icon(coordinateSystem(preserveAspectRatio=false, extent={
+            {-100,-100},{100,100}}),
+                           graphics={
         Rectangle(
           extent={{-60,80},{60,-80}},
           lineColor={95,95,95},
@@ -30,5 +32,12 @@ partial model PartialWindow "Partial window model"
         Line(
           points={{-60,-4},{60,-4}},
           color={95,95,95},
-          smooth=Smooth.None)}));
+          smooth=Smooth.None),
+        Text(
+          extent={{-100,102},{100,82}},
+          lineColor={95,95,95},
+          lineThickness=0.5,
+          fillColor={95,95,95},
+          fillPattern=FillPattern.Solid,
+          textString="%name")}));
 end PartialWindow;

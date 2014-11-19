@@ -11,12 +11,47 @@ partial model Partial_SIM
 Your model is using an outer \"sim\" component but
 an inner \"sim\" component is not defined.
 For simulation drag a sim from FastBuildings.Input 
-into your model to specify your Simulation Input Manager.", Diagram(coordinateSystem(extent = {{-100,-100},{100,100}}, preserveAspectRatio = false, initialScale = 0.1, grid = {2,2}), graphics), Icon(coordinateSystem(extent = {{-100,-100},{100,100}}, preserveAspectRatio = false, initialScale = 0.1, grid = {2,2}), graphics={  Ellipse(origin = {-16.2795,-2.51383}, extent = {{-15.3545,13.7557},{40.6536,-39.7386}}, endAngle = 360),Line(origin = {35.7667,32.6395}, points={{
-              -14.5098,-17.7778},{10.2333,11.3605}}),                                                                                                    Line(origin = {-32.2373,35.083}, points={{
-              10.9804,-21.5686},{-11.7627,10.917}}),                                                                                                    Line(origin = {-70.357,-0.181041}, points={{
-              22.3529,-5.4902},{-13.643,-3.81896}}),                                                                                                    Line(origin = {-56.8326,-62.6043}, points={{
-              26.9885,18.6224},{-1.1674,-9.3957}}),                                                                                                    Line(origin = {42.2926,-65.0779}, points={{
-              -21.4379,25.098},{3.7074,-8.9221}}),                                                                                                    Line(origin = {60.0704,-13.7557}, points = {{-20.915,2.61438},{20.915,3.66013}}),Text(origin={
-              -0.6119,74.1468},                                                                                                    fillColor = {0,0,255}, extent={{
-              -98.6119,24.1468},{98.6119,-24.1468}},                                                                                                    textString = "%name")}));
+into your model to specify your Simulation Input Manager.", Diagram(coordinateSystem(extent = {{-100,-100},{100,100}}, preserveAspectRatio = false, initialScale = 0.1, grid = {2,2}), graphics), Icon(coordinateSystem(extent={{-100,
+            -100},{100,100}},                                                                                                    preserveAspectRatio=false,   initialScale = 0.1, grid = {2,2}), graphics={
+                                                                                                    Text(origin={
+              0.3881,85.1468},                                                                                                    fillColor=
+              {0,0,255},                                                                                                    extent={{
+              -99.6119,13.1468},{99.6119,-13.1468}},
+          textString="%name",
+          lineColor={0,0,255}),
+        Ellipse(
+          extent={{-32,24},{30,-34}},
+          lineColor={0,0,255},
+          fillPattern=FillPattern.Solid,
+          fillColor={0,0,255}),
+        Line(
+          points={{14,26},{34,54}},
+          color={0,0,255},
+          thickness=0.5,
+          smooth=Smooth.None),
+        Line(
+          points={{36,-8},{38,-8},{74,-12}},
+          color={0,0,255},
+          thickness=0.5,
+          smooth=Smooth.None),
+        Line(
+          points={{16,-34},{30,-66}},
+          color={0,0,255},
+          thickness=0.5,
+          smooth=Smooth.None),
+        Line(
+          points={{-18,-34},{-34,-64}},
+          color={0,0,255},
+          thickness=0.5,
+          smooth=Smooth.None),
+        Line(
+          points={{-36,-6},{-76,-4}},
+          color={0,0,255},
+          thickness=0.5,
+          smooth=Smooth.None),
+        Line(
+          points={{-22,24},{-40,52}},
+          color={0,0,255},
+          thickness=0.5,
+          smooth=Smooth.None)}));
 end Partial_SIM;

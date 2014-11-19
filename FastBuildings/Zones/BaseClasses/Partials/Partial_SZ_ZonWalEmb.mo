@@ -25,7 +25,7 @@ protected
 
 equation
   connect(resEmbExt.heaPor_b, heaPorEmb) annotation (Line(
-      points={{90,40},{94,40},{94,39.9057},{100,39.9057}},
+      points={{90,40},{94,40},{94,39.9528},{99.9999,39.9528}},
       color={191,0,0},
       smooth=Smooth.None));
   connect(resEmbExt.heaPor_a, capEmb.heaPor) annotation (Line(
