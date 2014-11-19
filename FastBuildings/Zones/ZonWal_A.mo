@@ -4,7 +4,7 @@ model ZonWal_A "heaPorEmb and heaPorRad connected to capWal"
 equation
   for i in 1:nIrr loop
     connect(win[i].heaPor1, capZon.heaPor) annotation (Line(
-      points={{-79.9087,39.9476},{-30,40},{20,40},{20,60}},
+      points={{-79.9087,39.9476},{-30,39.9476},{20,39.9476},{20,60}},
       color={191,0,0},
       smooth=Smooth.None));
   end for;
