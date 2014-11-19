@@ -2,9 +2,9 @@ within FastBuildings.Examples;
 model TwoZone_ArtificialInputs
   "Two zone simulation based on artificial inputs for QHeaCoo and PEle"
   extends Modelica.Icons.Example;
-  inner FastBuildings.Input.SIM_ArtificialInput simFasBui(nIrr=2)
+  inner Input.SIM_2Zones_Artificial             simFasBui(nIrr=2)
                                                     annotation(Placement(visible = true, transformation(origin = {-89.817,88.5229}, extent = {{-10,-10},{10,10}}, rotation = 0)));
-  Buildings.Z2_Inputs_powEle bui(
+  Buildings.Z2_Inputs bui(
         redeclare FastBuildings.Zones.ZonWalInt_B zon1(nIrr=2),
         redeclare FastBuildings.Zones.Zon_A zon2(nIrr=2))                 annotation(Placement(visible = true, transformation(origin={-11.8301,
             21.7255},                                                                                                    extent = {{-10,-10},{10,10}}, rotation = 0)));
