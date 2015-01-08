@@ -30,7 +30,7 @@ partial model Partial_SZ "Single zone partial model, no air node"
           lineThickness=0.5),
         Line(
           points={{-68,70},{68,70}},
-          color={0,0,0},
+          color={0,255,128},
           thickness=0.5,
           smooth=Smooth.None),
         Rectangle(
@@ -51,7 +51,7 @@ partial model Partial_SZ "Single zone partial model, no air node"
         Line(
           points={{-68,70},{-68,-70},{-40,-70},{-40,-80},{40,-80},{40,-70},{68,
               -70},{68,70}},
-          color={0,0,0},
+          color={0,255,128},
           smooth=Smooth.None,
           thickness=0.5),
         Text(
