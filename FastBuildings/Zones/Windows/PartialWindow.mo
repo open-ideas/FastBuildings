@@ -43,7 +43,7 @@ partial model PartialWindow "Partial window model"
           smooth=Smooth.None),
         Line(
           points={{4,56},{4,-24}},
-          color={0,0,0},
+          color={0,255,128},
           thickness=0.5,
           smooth=Smooth.None)}));
 end PartialWindow;
