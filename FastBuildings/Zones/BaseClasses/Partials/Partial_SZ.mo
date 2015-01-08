@@ -13,9 +13,52 @@ partial model Partial_SZ "Single zone partial model, no air node"
   outer Input.BaseClasses.Partial_SIM simFasBui
     "Input data, to be provided by an inner submodel of PartialSIM"
     annotation (Placement(transformation(extent={{-200,80},{-180,100}})));
-  annotation(Diagram(coordinateSystem(extent={{-200,-100},{100,100}},   preserveAspectRatio=true,    initialScale = 0.1, grid = {2,2}), graphics), Icon(coordinateSystem(extent={{-200,
-            -100},{100,100}},                                                                                                    preserveAspectRatio=true,    initialScale = 0.1, grid = {2,2}), graphics={  Polygon(origin = {0.130719,0.130719}, points={{
-              -200.131,99.8693},{-200.131,-40.1307},{-60.1307,-40.1307},{
-              -60.1307,-100.131},{99.8693,-100.131},{99.8693,99.8693},{-200.131,
-              99.8693}})}));
+  annotation(Diagram(coordinateSystem(extent={{-100,-100},{100,100}},   preserveAspectRatio=true,    initialScale = 0.1, grid = {2,2}), graphics), Icon(coordinateSystem(extent={{-100,
+            -100},{100,100}},                                                                                                    preserveAspectRatio=true,    initialScale = 0.1, grid = {2,2}), graphics={
+        Rectangle(
+          extent={{-90,90},{90,-90}},
+          pattern=LinePattern.None,
+          fillColor={175,175,175},
+          fillPattern=FillPattern.Backward,
+          lineColor={0,0,0}),
+        Rectangle(
+          extent={{68,70},{-68,-70}},
+          pattern=LinePattern.None,
+          fillColor={255,255,255},
+          fillPattern=FillPattern.Solid,
+          lineColor={0,0,0},
+          lineThickness=0.5),
+        Line(
+          points={{-68,70},{68,70}},
+          color={0,0,0},
+          thickness=0.5,
+          smooth=Smooth.None),
+        Rectangle(
+          extent={{-40,-70},{40,-90}},
+          lineThickness=0.5,
+          pattern=LinePattern.None,
+          lineColor={0,0,0},
+          fillColor={255,255,255},
+          fillPattern=FillPattern.Solid),
+        Polygon(
+          points={{-40,-90},{68,22},{68,-42},{40,-70},{40,-90},{-40,-90},{-40,
+              -90}},
+          lineThickness=0.5,
+          smooth=Smooth.None,
+          fillColor={255,255,170},
+          fillPattern=FillPattern.Solid,
+          pattern=LinePattern.None),
+        Line(
+          points={{-68,70},{-68,-70},{-40,-70},{-40,-80},{40,-80},{40,-70},{68,
+              -70},{68,70}},
+          color={0,0,0},
+          smooth=Smooth.None,
+          thickness=0.5),
+        Text(
+          extent={{-39,40},{39,-40}},
+          lineColor={0,0,0},
+          fontName="Calibri",
+          origin={-2,3},
+          rotation=0,
+          textString="%name")}));
 end Partial_SZ;
