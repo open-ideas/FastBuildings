@@ -11,24 +11,39 @@ partial model PartialWindow "Partial window model"
 
   annotation(Diagram(graphics),
                       Icon(graphics={
-        Rectangle(
-          extent={{-60,80},{60,-80}},
-          lineColor={95,95,95},
-          lineThickness=0.5),
+        Polygon(
+          points={{-50,76},{0,56},{4,56},{4,-24},{-50,-4},{-50,76}},
+          smooth=Smooth.None,
+          pattern=LinePattern.None,
+          fillColor={255,255,170},
+          fillPattern=FillPattern.Solid,
+          lineColor={0,0,0}),
+        Polygon(
+          points={{4,36},{50,16},{50,-36},{20,-24},{4,-24},{4,36}},
+          smooth=Smooth.None,
+          pattern=LinePattern.None,
+          fillColor={179,179,179},
+          fillPattern=FillPattern.Solid,
+          lineColor={0,0,0}),
         Line(
-          points={{-4,80},{-4,-80}},
+          points={{0,56},{20,56},{20,76},{50,76}},
           color={95,95,95},
           smooth=Smooth.None),
         Line(
-          points={{4,80},{4,-80}},
+          points={{0,-24},{20,-24},{20,-74},{20,-74},{50,-74}},
           color={95,95,95},
           smooth=Smooth.None),
         Line(
-          points={{-60,4},{60,4}},
+          points={{0,56},{0,62},{0,96},{50,96}},
           color={95,95,95},
           smooth=Smooth.None),
         Line(
-          points={{-60,-4},{60,-4}},
+          points={{0,-24},{0,-94},{50,-94}},
           color={95,95,95},
+          smooth=Smooth.None),
+        Line(
+          points={{4,56},{4,-24}},
+          color={0,0,0},
+          thickness=0.5,
           smooth=Smooth.None)}));
 end PartialWindow;

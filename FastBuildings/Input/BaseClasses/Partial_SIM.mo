@@ -11,12 +11,75 @@ partial model Partial_SIM
 Your model is using an outer \"sim\" component but
 an inner \"sim\" component is not defined.
 For simulation drag a sim from FastBuildings.Input 
-into your model to specify your Simulation Input Manager.", Diagram(coordinateSystem(extent = {{-100,-100},{100,100}}, preserveAspectRatio = false, initialScale = 0.1, grid = {2,2}), graphics), Icon(coordinateSystem(extent = {{-100,-100},{100,100}}, preserveAspectRatio = false, initialScale = 0.1, grid = {2,2}), graphics={  Ellipse(origin = {-16.2795,-2.51383}, extent = {{-15.3545,13.7557},{40.6536,-39.7386}}, endAngle = 360),Line(origin = {35.7667,32.6395}, points={{
-              -14.5098,-17.7778},{10.2333,11.3605}}),                                                                                                    Line(origin = {-32.2373,35.083}, points={{
-              10.9804,-21.5686},{-11.7627,10.917}}),                                                                                                    Line(origin = {-70.357,-0.181041}, points={{
-              22.3529,-5.4902},{-13.643,-3.81896}}),                                                                                                    Line(origin = {-56.8326,-62.6043}, points={{
-              26.9885,18.6224},{-1.1674,-9.3957}}),                                                                                                    Line(origin = {42.2926,-65.0779}, points={{
-              -21.4379,25.098},{3.7074,-8.9221}}),                                                                                                    Line(origin = {60.0704,-13.7557}, points = {{-20.915,2.61438},{20.915,3.66013}}),Text(origin={
-              -0.6119,74.1468},                                                                                                    fillColor = {0,0,255}, extent={{
-              -98.6119,24.1468},{98.6119,-24.1468}},                                                                                                    textString = "%name")}));
+into your model to specify your Simulation Input Manager.", Diagram(coordinateSystem(extent = {{-100,-100},{100,100}}, preserveAspectRatio = false, initialScale = 0.1, grid = {2,2}), graphics), Icon(coordinateSystem(extent = {{-100,-100},{100,100}}, preserveAspectRatio = false, initialScale = 0.1, grid = {2,2}), graphics={
+        Line(points={{-80,-30},{88,-30}}, color={0,0,0}),
+        Line(points={{-76,-68},{-46,-30}}, color={0,0,0}),
+        Line(points={{-42,-68},{-12,-30}}, color={0,0,0}),
+        Line(points={{-8,-68},{22,-30}},  color={0,0,0}),
+        Line(points={{28,-68},{58,-30}}, color={0,0,0}),
+        Rectangle(
+          extent={{-60,76},{60,-24}},
+          lineColor={95,95,95},
+          fillPattern=FillPattern.Solid,
+          fillColor={95,95,95}),
+        Rectangle(
+          extent={{-50,66},{50,-4}},
+          fillPattern=FillPattern.Solid,
+          fillColor={255,255,255},
+          pattern=LinePattern.None),
+        Rectangle(
+          extent={{-10,-34},{10,-24}},
+          pattern=LinePattern.None,
+          fillColor={95,95,95},
+          fillPattern=FillPattern.Solid,
+          lineColor={0,0,0}),
+        Polygon(
+          points={{-40,-60},{-40,-60}},
+          pattern=LinePattern.None,
+          smooth=Smooth.None,
+          fillColor={0,0,0},
+          fillPattern=FillPattern.Solid),
+        Polygon(
+          points={{-40,-34},{40,-34},{50,-44},{-52,-44},{-40,-34}},
+          smooth=Smooth.None,
+          fillColor={95,95,95},
+          fillPattern=FillPattern.Solid,
+          pattern=LinePattern.None),
+        Rectangle(
+          extent={{44,0},{38,40}},
+          fillColor={0,0,127},
+          fillPattern=FillPattern.Solid,
+          pattern=LinePattern.None),
+        Rectangle(
+          extent={{34,0},{28,12}},
+          fillColor={0,127,255},
+          fillPattern=FillPattern.Solid,
+          pattern=LinePattern.None),
+        Rectangle(
+          extent={{24,0},{18,56}},
+          fillColor={0,0,127},
+          fillPattern=FillPattern.Solid,
+          pattern=LinePattern.None),
+        Rectangle(
+          extent={{14,0},{8,36}},
+          fillColor={175,175,175},
+          fillPattern=FillPattern.Solid,
+          pattern=LinePattern.None),
+        Rectangle(
+          extent={{4,0},{-2,12}},
+          fillColor={0,127,255},
+          fillPattern=FillPattern.Solid,
+          pattern=LinePattern.None),
+        Line(
+          points={{-6,0},{-46,0}},
+          color={0,0,127},
+          smooth=Smooth.None),
+        Text(
+          extent={{-50,66},{-20,26}},
+          lineColor={95,95,95},
+          fillColor={95,95,95},
+          fillPattern=FillPattern.Solid,
+          textStyle={TextStyle.Italic},
+          fontName="Bookman Old Style",
+          textString="i")}));
 end Partial_SIM;

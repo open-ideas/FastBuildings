@@ -16,25 +16,5 @@ equation
   heaPor2.Q_flow = -irr * gA * (1-fraHeaPor1);
 
   annotation(Diagram(graphics),
-                      Icon(graphics={
-        Rectangle(
-          extent={{-60,80},{60,-80}},
-          lineColor={95,95,95},
-          lineThickness=0.5),
-        Line(
-          points={{-4,80},{-4,-80}},
-          color={95,95,95},
-          smooth=Smooth.None),
-        Line(
-          points={{4,80},{4,-80}},
-          color={95,95,95},
-          smooth=Smooth.None),
-        Line(
-          points={{-60,4},{60,4}},
-          color={95,95,95},
-          smooth=Smooth.None),
-        Line(
-          points={{-60,-4},{60,-4}},
-          color={95,95,95},
-          smooth=Smooth.None)}));
+                      Icon(graphics));
 end Window_gA_2;
