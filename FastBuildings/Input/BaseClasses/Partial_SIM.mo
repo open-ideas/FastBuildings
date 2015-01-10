@@ -13,7 +13,7 @@ an inner \"sim\" component is not defined.
 For simulation drag a sim from FastBuildings.Input 
 into your model to specify your Simulation Input Manager.", Diagram(coordinateSystem(extent = {{-100,-100},{100,100}}, preserveAspectRatio = false, initialScale = 0.1, grid = {2,2}), graphics), Icon(coordinateSystem(extent={{-100,
             -100},{100,100}},                                                                                                    preserveAspectRatio=false,   initialScale = 0.1, grid = {2,2}), graphics={
-                                                                                                    Text(origin={
+                                                                                              Text(origin={
               0.3881,85.1468},                                                                                                    fillColor=
               {0,0,255},                                                                                                    extent={{
               -99.6119,13.1468},{99.6119,-13.1468}},

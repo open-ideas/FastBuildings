@@ -71,7 +71,7 @@ equation
       color={191,0,0},
       smooth=Smooth.None));
   annotation(Diagram(coordinateSystem(extent={{-100,-100},{100,100}},   preserveAspectRatio=false,  initialScale = 0.1, grid = {2,2}),
-        graphics),                                                                                                    Icon(coordinateSystem(extent = {{-100,-100},{100,100}}, preserveAspectRatio = true, initialScale = 0.1, grid = {2,2}), graphics={  Rectangle(origin = {0.854701,-33.6752}, extent = {{-77.7778,-66.4957},{77.7778,66.4957}}),Polygon(origin = {-1.03388,65.2156}, points = {{-95.7183,-32.3951},{95.7347,-32.3951},{-2.04304,32.5622},{-95.7183,-32.3951}}),Text(origin = {0,-40.17}, lineColor=
-              {170,0,0},                                                                                                    extent = {{-58.8,37.44},{58.8,-37.44}},
+        graphics),                                                                                                    Icon(coordinateSystem(extent = {{-100,-100},{100,100}}, preserveAspectRatio = true, initialScale = 0.1, grid = {2,2}), graphics={  Rectangle(origin=  {0.854701,-33.6752}, extent=  {{-77.7778,-66.4957},{77.7778,66.4957}}),Polygon(origin=  {-1.03388,65.2156}, points=  {{-95.7183,-32.3951},{95.7347,-32.3951},{-2.04304,32.5622},{-95.7183,-32.3951}}),Text(origin=  {0,-40.17}, lineColor=
+              {170,0,0},                                                                                                    extent=  {{-58.8,37.44},{58.8,-37.44}},
           textString="Z2")}));
 end Partial2Zone;

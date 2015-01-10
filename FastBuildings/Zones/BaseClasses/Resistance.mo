@@ -7,7 +7,7 @@ equation
   heaPor_a.Q_flow + heaPor_b.Q_flow = 0;
   annotation(Diagram(coordinateSystem(preserveAspectRatio = true, extent = {{-100,-100},{100,100}}), graphics), Icon(
         coordinateSystem(preserveAspectRatio=false, extent={{-100,-100},{100,
-            100}}),                                                                                                  graphics={  Text(rotation = 0, lineColor=
+            100}}),                                                                                                  graphics={  Text(rotation=  0, lineColor=
               {95,95,95},                                                                                                    fillColor=
               {0,0,0},                                                                                                    pattern=
               LinePattern.Solid,

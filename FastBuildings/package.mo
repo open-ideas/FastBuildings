@@ -6,8 +6,13 @@ package FastBuildings "Low order building simulation models"
   import IDEAS;
 
 
-  annotation(uses(Modelica(version = "3.2"), Buildings(version = "0.12.0"), FastBuildings_SinglePackage(version = "0.0"), TME(version = "0.11"),
-    IDEAS(version="2")),                                                                                                    Documentation(info = "<html>
+
+
+
+
+
+
+  annotation(uses(Modelica(version = "3.2")),  Documentation(info = "<html>
 <p>This package contains light (few-states) building models. </p>
 <p>The conventions for orientations are (in radials):</p>
 <p><ul>

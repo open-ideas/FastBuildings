@@ -4,7 +4,8 @@ model TwoZone_ArtificialInputs
   extends Modelica.Icons.Example;
   inner Input.SIM_2Zones_Artificial             simFasBui(nIrr=2)
                                                     annotation(Placement(visible = true, transformation(origin = {-89.817,88.5229}, extent = {{-10,-10},{10,10}}, rotation = 0)));
-  Buildings.Z2_Inputs bui(redeclare FastBuildings.Zones.ZonWalInt_B zon1(
+  FastBuildings.Buildings.Z2_Inputs bui(redeclare
+      FastBuildings.Zones.ZonWalInt_B                                             zon1(
       nIrr=2,
       cZon=1e6,
       cWal=1e8,
