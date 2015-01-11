@@ -11,75 +11,47 @@ partial model Partial_SIM
 Your model is using an outer \"sim\" component but
 an inner \"sim\" component is not defined.
 For simulation drag a sim from FastBuildings.Input 
-into your model to specify your Simulation Input Manager.", Diagram(coordinateSystem(extent = {{-100,-100},{100,100}}, preserveAspectRatio = false, initialScale = 0.1, grid = {2,2}), graphics), Icon(coordinateSystem(extent = {{-100,-100},{100,100}}, preserveAspectRatio = false, initialScale = 0.1, grid = {2,2}), graphics={
-        Line(points={{-80,-30},{88,-30}}, color={0,0,0}),
-        Line(points={{-76,-68},{-46,-30}}, color={0,0,0}),
-        Line(points={{-42,-68},{-12,-30}}, color={0,0,0}),
-        Line(points={{-8,-68},{22,-30}},  color={0,0,0}),
-        Line(points={{28,-68},{58,-30}}, color={0,0,0}),
-        Rectangle(
-          extent={{-60,76},{60,-24}},
-          lineColor={95,95,95},
+into your model to specify your Simulation Input Manager.", Diagram(coordinateSystem(extent = {{-100,-100},{100,100}}, preserveAspectRatio = false, initialScale = 0.1, grid = {2,2}), graphics), Icon(coordinateSystem(extent={{-100,
+            -100},{100,100}},                                                                                                    preserveAspectRatio=false,   initialScale = 0.1, grid = {2,2}), graphics={
+                                                                                              Text(origin={
+              0.3881,85.1468},                                                                                                    fillColor=
+              {0,0,255},                                                                                                    extent={{
+              -99.6119,13.1468},{99.6119,-13.1468}},
+          textString="%name",
+          lineColor={0,0,255}),
+        Ellipse(
+          extent={{-32,24},{30,-34}},
+          lineColor={0,0,255},
           fillPattern=FillPattern.Solid,
-          fillColor={95,95,95}),
-        Rectangle(
-          extent={{-50,66},{50,-4}},
-          fillPattern=FillPattern.Solid,
-          fillColor={255,255,255},
-          pattern=LinePattern.None),
-        Rectangle(
-          extent={{-10,-34},{10,-24}},
-          pattern=LinePattern.None,
-          fillColor={95,95,95},
-          fillPattern=FillPattern.Solid,
-          lineColor={0,0,0}),
-        Polygon(
-          points={{-40,-60},{-40,-60}},
-          pattern=LinePattern.None,
-          smooth=Smooth.None,
-          fillColor={0,0,0},
-          fillPattern=FillPattern.Solid),
-        Polygon(
-          points={{-40,-34},{40,-34},{50,-44},{-52,-44},{-40,-34}},
-          smooth=Smooth.None,
-          fillColor={95,95,95},
-          fillPattern=FillPattern.Solid,
-          pattern=LinePattern.None),
-        Rectangle(
-          extent={{44,0},{38,40}},
-          fillColor={0,0,127},
-          fillPattern=FillPattern.Solid,
-          pattern=LinePattern.None),
-        Rectangle(
-          extent={{34,0},{28,12}},
-          fillColor={0,127,255},
-          fillPattern=FillPattern.Solid,
-          pattern=LinePattern.None),
-        Rectangle(
-          extent={{24,0},{18,56}},
-          fillColor={0,0,127},
-          fillPattern=FillPattern.Solid,
-          pattern=LinePattern.None),
-        Rectangle(
-          extent={{14,0},{8,36}},
-          fillColor={175,175,175},
-          fillPattern=FillPattern.Solid,
-          pattern=LinePattern.None),
-        Rectangle(
-          extent={{4,0},{-2,12}},
-          fillColor={0,127,255},
-          fillPattern=FillPattern.Solid,
-          pattern=LinePattern.None),
+          fillColor={0,0,255}),
         Line(
-          points={{-6,0},{-46,0}},
-          color={0,0,127},
+          points={{14,26},{34,54}},
+          color={0,0,255},
+          thickness=0.5,
           smooth=Smooth.None),
-        Text(
-          extent={{-50,66},{-20,26}},
-          lineColor={95,95,95},
-          fillColor={95,95,95},
-          fillPattern=FillPattern.Solid,
-          textStyle={TextStyle.Italic},
-          fontName="Bookman Old Style",
-          textString="i")}));
+        Line(
+          points={{36,-8},{38,-8},{74,-12}},
+          color={0,0,255},
+          thickness=0.5,
+          smooth=Smooth.None),
+        Line(
+          points={{16,-34},{30,-66}},
+          color={0,0,255},
+          thickness=0.5,
+          smooth=Smooth.None),
+        Line(
+          points={{-18,-34},{-34,-64}},
+          color={0,0,255},
+          thickness=0.5,
+          smooth=Smooth.None),
+        Line(
+          points={{-36,-6},{-76,-4}},
+          color={0,0,255},
+          thickness=0.5,
+          smooth=Smooth.None),
+        Line(
+          points={{-22,24},{-40,52}},
+          color={0,0,255},
+          thickness=0.5,
+          smooth=Smooth.None)}));
 end Partial_SIM;

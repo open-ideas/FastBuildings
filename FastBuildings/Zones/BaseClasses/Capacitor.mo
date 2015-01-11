@@ -9,28 +9,26 @@ model Capacitor "Lumped thermal capacity"
             {10,10}},                                                                                                    rotation = 0)));
 equation
   c * der(heaPor.T) = heaPor.Q_flow;
-  annotation(Diagram, Icon(graphics={  Text(rotation = 0, lineColor = {0,0,255}, fillColor = {0,0,0}, pattern = LinePattern.Solid,
-            fillPattern =                                                                                                   FillPattern.None,
-            lineThickness =                                                                                                   0.25, extent = {{-130.804,110.853},{129.196,59.8534}}, textString = "%name"),
-        Rectangle(
-          extent={{-22,-36},{34,-52}},
-          fillColor={191,0,0},
-          fillPattern=FillPattern.Solid,
-          pattern=LinePattern.None),
-        Rectangle(
-          extent={{-22,-10},{34,-26}},
-          fillColor={191,0,0},
-          fillPattern=FillPattern.Solid,
-          pattern=LinePattern.None),
-        Line(points={{0,-34},{0,-100}},color={0,0,0}),
-        Rectangle(
-          extent={{-28,-30},{28,-46}},
-          lineColor={0,0,0},
-          fillColor={255,255,255},
-          fillPattern=FillPattern.Solid),
-        Rectangle(
-          extent={{-28,-4},{28,-20}},
-          lineColor={0,0,0},
-          fillColor={255,255,255},
-          fillPattern=FillPattern.Solid)}));
+  annotation(Diagram, Icon(graphics={  Text(rotation=  0, lineColor={95,95,95},  fillColor=
+              {0,0,0},                                                                                pattern=
+              LinePattern.Solid,
+            fillPattern=FillPattern.None,
+            lineThickness=0.25,                                                                                                    extent={{
+              -100,92},{100,60}},
+          textString="%name"),
+        Line(
+          points={{0,-98},{0,0}},
+          color={95,95,95},
+          smooth=Smooth.None,
+          thickness=0.5),
+        Line(
+          points={{-60,0},{60,0}},
+          color={95,95,95},
+          smooth=Smooth.None,
+          thickness=1),
+        Line(
+          points={{-60,40},{60,40}},
+          color={95,95,95},
+          smooth=Smooth.None,
+          thickness=1)}));
 end Capacitor;

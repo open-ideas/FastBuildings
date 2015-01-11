@@ -10,21 +10,13 @@ partial model PartialWindow "Partial window model"
             -0.52412},                                                                                                    extent = {{-12,-12},{12,12}}, rotation = 0)));
 
   annotation(Diagram(graphics),
-                      Icon(graphics={
-        Polygon(
-          points={{-50,76},{0,56},{4,56},{4,-24},{-50,-4},{-50,76}},
-          smooth=Smooth.None,
-          pattern=LinePattern.None,
-          fillColor={255,255,170},
-          fillPattern=FillPattern.Solid,
-          lineColor={0,0,0}),
-        Polygon(
-          points={{4,36},{50,16},{50,-36},{20,-24},{4,-24},{4,36}},
-          smooth=Smooth.None,
-          pattern=LinePattern.None,
-          fillColor={179,179,179},
-          fillPattern=FillPattern.Solid,
-          lineColor={0,0,0}),
+                      Icon(coordinateSystem(preserveAspectRatio=false, extent={
+            {-100,-100},{100,100}}),
+                           graphics={
+        Rectangle(
+          extent={{-60,80},{60,-80}},
+          lineColor={95,95,95},
+          lineThickness=0.5),
         Line(
           points={{0,56},{20,56},{20,76},{50,76}},
           color={95,95,95},
@@ -41,9 +33,11 @@ partial model PartialWindow "Partial window model"
           points={{0,-24},{0,-94},{50,-94}},
           color={95,95,95},
           smooth=Smooth.None),
-        Line(
-          points={{4,56},{4,-24}},
-          color={0,255,128},
-          thickness=0.5,
-          smooth=Smooth.None)}));
+        Text(
+          extent={{-100,102},{100,82}},
+          lineColor={95,95,95},
+          lineThickness=0.5,
+          fillColor={95,95,95},
+          fillPattern=FillPattern.Solid,
+          textString="%name")}));
 end PartialWindow;
