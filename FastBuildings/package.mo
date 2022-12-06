@@ -1,6 +1,6 @@
 within ;
 package FastBuildings "Low order building simulation models"
-  import SI = Modelica.SIunits;
+  import SI = Modelica.Units.SI;
   import HT = Modelica.Thermal.HeatTransfer;
   import Commons;
   import IDEAS;
