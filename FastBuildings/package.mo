@@ -1,6 +1,6 @@
 within ;
 package FastBuildings "Low order building simulation models"
-  import SI = Modelica.SIunits;
+  import SI = Modelica.Units.SI;
   import HT = Modelica.Thermal.HeatTransfer;
   import Commons;
   import IDEAS;
@@ -12,7 +12,7 @@ package FastBuildings "Low order building simulation models"
 
 
 
-  annotation(uses(Modelica(version = "3.2")),  Documentation(info = "<html>
+  annotation(uses(Modelica(version = "4.0.0")),  Documentation(info = "<html>
 <p>This package contains light (few-states) building models. </p>
 <p>The conventions for orientations are (in radials):</p>
 <p><ul>
